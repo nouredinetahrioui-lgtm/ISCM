@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Ice Skating Center Mechelen</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Eigen CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATIE -->
+    <nav>
+        <div class="wrap">
+
+            <a class="logo" href="#">
+                ISCM<b>.</b>
+            </a>
+
+            <ul>
+                <li><a href="#kalender">Kalender</a></li>
+                <li><a href="#brasserie">Brasserie</a></li>
+                <li><a href="#meer">Lessen &amp; feesten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a
+                class="btn nav-ticket"
+                href="https://iscm.be/nl/kalender/"
+            >
+                Tickets
+            </a>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="wrap">
+
+            <div class="eyebrow hero-eyebrow">
+                Ice Skating Center Mechelen
+            </div>
+
+            <h1>
+                De winter begint
+                <em>pas écht</em>
+                op het ijs.
+            </h1>
+
+            <p>
+                Publiek schaatsen, ijshockey met de Sharks,
+                disco op het ijs en een gezellige brasserie
+                met zicht op de piste.
+            </p>
+
+            <div class="row">
+
+                <a
+                    class="btn"
+                    href="https://iscm.be/nl/kalender/"
+                >
+                    Reserveer je beurt
+                </a>
+
+                <a
+                    class="btn ghost"
+                    href="#brasserie"
+                >
+                    Ontdek de brasserie
+                </a>
+
+            </div>
+
+            <div class="chips">
+
+                <span>
+                    📍 Spuibeekstraat 1, Mechelen
+                </span>
+
+                <span>
+                    📞 015 291 991
+                </span>
+
+                <span>
+                    Woe · Vrij · Zat · Zon publiek
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- DEZE WEEK -->
+    <section>
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                Deze week
+            </div>
+
+            <h2>
+                Er valt weer heel wat te beleven
+            </h2>
+
+            <div class="promo">
+
+                <div class="card">
+
+                    <div class="day">
+                        WOENSDAG
+                    </div>
+
+                    <h3>
+                        Besties Wednesday
+                    </h3>
+
+                    <p>
+                        Samen schaatsen is dubbel zo leuk:
+                        profiteer van ons speciale duoticket.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="day">
+                        VRIJDAG
+                    </div>
+
+                    <h3>
+                        Hockeytime
+                    </h3>
+
+                    <p>
+                        Sharks Mechelen tegen HYC Herentals.
+                        Face-off om 20.45 uur, met revanche
+                        in de lucht.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="day">
+                        ZONDAG
+                    </div>
+
+                    <h3>
+                        Sharkies op het ijs
+                    </h3>
+
+                    <p>
+                        Moedig onze jongste hockeytalenten
+                        aan en geniet van hun enthousiasme.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- KALENDER -->
+    <section id="kalender" class="calendar-section">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                Kalender
+            </div>
+
+            <h2>
+                Nu en binnenkort op het ijs
+            </h2>
+
+            <div
+                class="tabs"
+                id="tabs"
+            ></div>
+
+            <div id="list"></div>
+
+            <p class="calendar-button">
+
+                <a
+                    class="btn"
+                    href="https://iscm.be/nl/kalender/"
+                >
+                    Bekijk volledige kalender
+                </a>
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRASSERIE -->
+    <section
+        class="brass"
+        id="brasserie"
+    >
+
+        <svg
+            class="lights"
+            viewBox="0 0 1200 60"
+            preserveAspectRatio="none"
+        >
+
+            <path
+                d="M0 8 Q300 50 600 8 T1200 8"
+                stroke="#6b4a2b"
+                fill="none"
+                stroke-width="2"
+            />
+
+            <g fill="#ffd27a">
+
+                <circle cx="100" cy="30" r="6"/>
+                <circle cx="220" cy="38" r="6"/>
+                <circle cx="340" cy="38" r="6"/>
+                <circle cx="460" cy="28" r="6"/>
+                <circle cx="600" cy="14" r="6"/>
+                <circle cx="740" cy="28" r="6"/>
+                <circle cx="860" cy="38" r="6"/>
+                <circle cx="980" cy="38" r="6"/>
+                <circle cx="1100" cy="30" r="6"/>
+
+            </g>
+
+            <g
+                fill="#ffd27a"
+                opacity=".25"
+            >
+
+                <circle cx="100" cy="30" r="16"/>
+                <circle cx="340" cy="38" r="16"/>
+                <circle cx="600" cy="14" r="16"/>
+                <circle cx="860" cy="38" r="16"/>
+                <circle cx="1100" cy="30" r="16"/>
+
+            </g>
+
+        </svg>
+
+
+        <div class="wrap grid brasserie-content">
+
+            <div>
+
+                <div class="eyebrow">
+                    Brasserie
+                </div>
+
+                <h2>
+                    Kom op adem, met zicht op de piste
+                </h2>
+
+                <p>
+                    Onze vintage brasserie zit vol planten,
+                    warme lichtjes en gezellige tafeltjes.
+                    Naast de brasserie loopt een grote glazen wand:
+                    geniet van een warme chocolademelk terwijl
+                    je de schaatsers en de Sharks aan het werk ziet.
+                </p>
+
+
+                <div class="tags">
+
+                    <span>
+                        🌿 Vintage &amp; groen
+                    </span>
+
+                    <span>
+                        💡 Warme lichtjes
+                    </span>
+
+                    <span>
+                        🪟 Glazen wand naar het ijs
+                    </span>
+
+                </div>
+
+
+                <p class="brasserie-button">
+
+                    <a
+                        class="btn brasserie-btn"
+                        href="https://iscm.be/nl/brasserie/"
+                    >
+                        Bekijk de brasserie
+                    </a>
+
+                </p>
+
+            </div>
+
+
+            <div class="scene">
+
+                <div class="cafe">
+
+                    <span class="plant plant-right">
+                        🪴
+                    </span>
+
+                    <span class="plant plant-left">
+                        🌿
+                    </span>
+
+                    <div class="tbl"></div>
+
+                </div>
+
+
+                <div class="glass">
+
+                    <div class="frame"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEER -->
+    <section id="meer">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                Meer bij ISCM
+            </div>
+
+            <h2>
+                Voor elk niveau en elke gelegenheid
+            </h2>
+
+            <div class="three">
+
+                <a
+                    class="card"
+                    href="https://iscm.be/nl/informatie/"
+                >
+
+                    <div class="ic">
+                        ⛸️
+                    </div>
+
+                    <h3>
+                        Schaatslessen
+                    </h3>
+
+                    <p>
+                        Voor kinderen en volwassenen,
+                        voor elk niveau.
+                    </p>
+
+                </a>
+
+
+                <a
+                    class="card"
+                    href="https://iscm.be/nl/schaatsenverjaardagsfeestjes/"
+                >
+
+                    <div class="ic">
+                        🎉
+                    </div>
+
+                    <h3>
+                        Hip hip hoera!
+                    </h3>
+
+                    <p>
+                        Vier je verjaardag met vrienden
+                        op het ijs.
+                    </p>
+
+                </a>
+
+
+                <a
+                    class="card"
+                    href="https://iscm.be/nl/informatie/#onzeclubs"
+                >
+
+                    <div class="ic">
+                        🏒
+                    </div>
+
+                    <h3>
+                        Onze clubs
+                    </h3>
+
+                    <p>
+                        Ontdek welke clubs op onze ijspiste
+                        thuis zijn.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="wrap">
+
+            <div>
+
+                <b>
+                    Ice Skating Center Mechelen
+                </b>
+
+                <br>
+
+                Spuibeekstraat 1, 2800 Mechelen
+
+                <br>
+
+                015 291 991
+
+            </div>
+
+
+            <div>
+
+                <a href="https://iscm.be/nl/abonnementenenpassen/">
+                    Abonnementen &amp; passen
+                </a>
+
+                <br>
+
+                <a href="https://iscm.be/nl/contact/">
+                    Contact &amp; route
+                </a>
+
+                <br>
+
+                <a href="https://www.facebook.com/pages/Ice-Skating-Center-Mechelen/143827289002508">
+                    Facebook
+                </a>
+
+            </div>
+
+
+            <div>
+
+                © 2026 ISCM · Prijzen incl. btw
+
+                <br>
+
+                <a href="https://iscm.be/nl/disclaimer/">
+                    Disclaimer &amp; privacy
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        const P =
+            "https://iscm.be/nl/reserveer-publiek/?id=";
+
+
+        const D = [
+
+            [
+                "Wo 14/10",
+                [
+                    [
+                        "14:00–16:00",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        28413
+                    ],
+
+                    [
+                        "16:15–18:15",
+                        "Hivernia"
+                    ],
+
+                    [
+                        "19:45–20:45",
+                        "Sharks Mechelen U18"
+                    ],
+
+                    [
+                        "21:00–22:00",
+                        "Sharks Mechelen DIV 1"
+                    ]
+                ]
+            ],
+
+
+            [
+                "Do 15/10",
+                [
+                    [
+                        "14:00–16:00",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        28645
+                    ],
+
+                    [
+                        "17:30–19:00",
+                        "Sharks ICE 1 & ICE 2"
+                    ],
+
+                    [
+                        "19:15–21:00",
+                        "Sharks ICE 3 & ICE 4"
+                    ]
+                ]
+            ],
+
+
+            [
+                "Vr 16/10",
+                [
+                    [
+                        "14:00–15:45",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        28913
+                    ],
+
+                    [
+                        "18:15–19:45",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        29024
+                    ],
+
+                    [
+                        "20:45",
+                        "Face-off: D1 Sharks Mechelen vs Heylen Vastgoed HYC",
+                        "g"
+                    ]
+                ]
+            ],
+
+
+            [
+                "Za 17/10",
+                [
+                    [
+                        "14:00–16:00",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        29172
+                    ],
+
+                    [
+                        "18:30–21:00",
+                        "Disco Skating",
+                        "p",
+                        29283
+                    ],
+
+                    [
+                        "21:15–23:15",
+                        "D4 Sharks Mechelen vs Bulldogs Liège",
+                        "g"
+                    ]
+                ]
+            ],
+
+
+            [
+                "Zo 18/10",
+                [
+                    [
+                        "14:45–16:30",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        29468
+                    ],
+
+                    [
+                        "19:00–20:30",
+                        "Publieke schaatsbeurt",
+                        "p",
+                        29542
+                    ]
+                ]
+            ]
+
+        ];
+
+
+        const T = document.getElementById("tabs");
+
+        const L = document.getElementById("list");
+
+
+        function show(i) {
+
+            [...T.children].forEach((button, j) => {
+
+                button.classList.toggle(
+                    "on",
+                    i === j
+                );
+
+            });
+
+
+            L.innerHTML = D[i][1]
+
+                .map(slot => {
+
+                    let className = "";
+
+                    if (slot[2] === "p") {
+                        className = "pub";
+                    }
+
+                    else if (slot[2] === "g") {
+                        className = "game";
+                    }
+
+
+                    return `
+
+                        <div class="slot ${className}">
+
+                            <time>
+                                ${slot[0]}
+                            </time>
+
+                            <span>
+                                ${slot[1]}
+                            </span>
+
+                            ${
+                                slot[3]
+
+                                ? `
+                                    <a href="${P + slot[3]}">
+                                        Reserveer →
+                                    </a>
+                                  `
+
+                                : ""
+                            }
+
+                        </div>
+
+                    `;
+
+                })
+
+                .join("");
+
+        }
+
+
+        D.forEach((day, i) => {
+
+            const button =
+                document.createElement("button");
+
+            button.className = "tab";
+
+            button.textContent = day[0];
+
+            button.onclick = () => show(i);
+
+            T.append(button);
+
+        });
+
+
+        show(0);
+
+    </script>
+
+</body>
+</html>
